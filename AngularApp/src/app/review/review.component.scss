@@ -1,0 +1,59 @@
+.table-data {
+    height: 80vh;
+    overflow: auto;
+}
+
+.input-filter {
+    display: inline-block;
+    margin: 20px 0px 10px 20px;
+}
+
+
+table {
+    width: 100%;
+}
+
+.mat-header-cell{
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    overflow-wrap: break-word;
+}
+
+.mat-column-review {
+    flex: 0 0 30% !important;
+    width: 30% !important;
+    word-wrap: break-word;
+
+    word-break: break-word;
+
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.mat-column-author{
+    flex: 0 0 10% !important;
+    width: 10% !important;
+}
+.mat-column-review_source{
+    flex: 0 0 10% !important;
+    width: 10% !important;
+}
+.mat-column-title{
+    flex: 0 0 10% !important;
+    width: 10% !important;
+}
+.mat-column-rating{
+    flex: 0 0 7% !important;
+    width: 7% !important;
+    text-align: center;
+}
+.mat-column-product_name{
+    flex: 0 0 10% !important;
+    width: 10% !important;
+}
+.mat-column-reviewed_date{
+    flex: 0 0 10% !important;
+    width: 10% !important;
+}
